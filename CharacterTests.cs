@@ -49,7 +49,7 @@ namespace DnDBattler.Tests
         public void Wizard_Attack_Should_Be_Doubled_And_InExpectedRange()
         {
             var wizard = new Wizard("Merlin");
-            Assert.That(wizard.Attack, Is.GreaterThanOrEqualTo(2));  // doubled from 1..10 => 2..20
+            Assert.That(wizard.Attack, Is.GreaterThanOrEqualTo(2));  // doubled from 1,2,3..10 => 2..20
             Assert.That(wizard.Attack, Is.LessThanOrEqualTo(20));
             Assert.That(wizard.Attack % 2, Is.EqualTo(0));           // doubled value is even
         }
