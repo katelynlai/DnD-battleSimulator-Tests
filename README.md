@@ -20,4 +20,7 @@ This folder contains unit tests for the **DnD Battler** project using **NUnit**.
     ```dotnet test```
 
 
-
+## What is tested
+- Character Actions: Attacks, health changes, and special abilities.
+- Team Management: Team creation, health tracking, and interactions between team members.
+- Battle Logic: Turn order, win/loss conditions, and battle outcomes.
