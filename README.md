@@ -9,14 +9,13 @@ This folder contains unit tests for the **DnD Battler** project using **NUnit**.
 
 
 ## Running the Tests
-1. Open a terminal in the `DnDBattler.Tests` folder.
-2. Restore dependencies and build the test project:
+1. Restore dependencies and build the test project:
 
     ``` dotnet restore ``` 
 
     ```dotnet build ```
 
-3. Run the tests:
+2. Run the tests:
 
     ```dotnet test```
 
