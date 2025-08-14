@@ -58,7 +58,7 @@ namespace DnDBattler.Tests
         public void Fighter_Should_Get_Health_Bonus_Of_5()
         {
             var fighter = new Fighter("Conan");
-            Assert.That(fighter.Health, Is.GreaterThanOrEqualTo(6)); // base 1..10 + 5
+            Assert.That(fighter.Health, Is.GreaterThanOrEqualTo(6)); // base 1, 2, 3...10 + 5
             Assert.That(fighter.Health, Is.LessThanOrEqualTo(15));
         }
     }

@@ -59,8 +59,9 @@ namespace DnDBattler.Tests
             var battle = new Battle(teamA, teamB);
             battle.Simulate();
 
-            Assert.That(teamA.Members[0].Health, Is.LessThanOrEqualTo(10));
-            Assert.That(teamB.Members[0].Health, Is.LessThanOrEqualTo(10));
+            Assert.That(teamA.Members[0].Health, Is.LessThan(10));
+            Assert.That(teamB.Members[0].Health, Is.LessThan(10));
+            //less than 10 to confirm damage actually happened
         }
 
         [Test]
